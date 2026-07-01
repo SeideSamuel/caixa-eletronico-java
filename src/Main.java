@@ -16,7 +16,7 @@ public class Main {
         System.out.println("[4] Depositar");
         System.out.println("[5] Ver saldo");
         System.out.println("[6] Sair");
-        System.out.println("Escolha uma opção:");
+        System.out.print("Escolha uma opção:");
         try {
             opcao = usuario.nextInt();
         } catch (RuntimeException e) {
