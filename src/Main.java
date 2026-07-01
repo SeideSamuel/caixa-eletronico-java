@@ -31,7 +31,7 @@ public class Main {
                     ContaBanco user = new ContaBanco(nome);
                     user.abrirConta();
                     contas.add(user);
-                    System.out.println("Conta criada, Seja bem vindo" + user.getNome() + "!");
+                    System.out.println("Seja bem-vindo " + user.getNome() + "!");
                     break;
 
                 case 2:
