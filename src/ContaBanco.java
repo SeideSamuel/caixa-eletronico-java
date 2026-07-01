@@ -24,6 +24,7 @@ public class ContaBanco {
     public void depositar(double deposito) {
         if(isStatus()) {
             setSaldo(getSaldo() + deposito);
+            System.out.println("Depósito realizado com sucesso");
         } else {
             System.out.println("Impossível depositar em uma conta fechada");
         }
