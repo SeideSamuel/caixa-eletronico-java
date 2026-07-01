@@ -8,7 +8,8 @@ public class Main {
         int opcao = 0;
 
         menu : while (true) {
-        System.out.println("-----CAIXA ELETRONICO-----");
+        System.out.println("------------- CAIXA ELETRÔNICO -------------");
+        System.out.println("                                            ");
         System.out.println("[1] Criar uma conta");
         System.out.println("[2] Fechar uma conta");
         System.out.println("[3] Sacar");
