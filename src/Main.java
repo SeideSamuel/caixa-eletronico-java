@@ -20,6 +20,7 @@ public class Main {
         try {
             opcao = usuario.nextInt();
         } catch (RuntimeException e) {
+            System.out.println("ERRO! Tente novamente");
             usuario.next();
             continue;
         }
